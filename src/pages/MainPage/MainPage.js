@@ -77,7 +77,7 @@ const mainPage = () => {
 				</div>
 			</section>
 
-			<section className="sec_padding">
+			<section className="sec_padding sec_grey">
 				<div className="container">
 					<div className="sec_title_space">
 						<div className="sec_title_box">
@@ -109,6 +109,43 @@ const mainPage = () => {
 									<Card.Text>Hardware Store</Card.Text>
 								</Card.Body>
 							</Card>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className="sec_padding">
+				<div className="container">
+					<div className="sec_title_space">
+						<div className="sec_title_box">
+							<h2>Testimonials</h2>
+							<div className="sec_title_underline" />
+						</div>
+					</div>
+
+					<div className="testimonial_space">
+						<div className="testimonial_box">
+							<div className="testimonial">
+								<div className="testimonial_img_box">
+									<img alt="testimonial_quote_icon" />
+								</div>
+								<p className="testimonial_name">Ginger Spice</p>
+								<p className="testimonial_body">
+									coolest nigaga on the parke djfsadkldf
+									loerjalfd fads fdwath jtej hell yo
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className="sec_padding sec_grey">
+				<div className="container">
+					<div className="sec_title_space">
+						<div className="sec_title_box">
+							<h2>About Me</h2>
+							<div className="sec_title_underline" />
 						</div>
 					</div>
 				</div>

@@ -16,6 +16,10 @@ header {
 	padding: 4.5rem 0;
 }
 
+.sec_grey {
+	background-color: #f5f5f5;
+}
+
 .header_orderer {
 	height: 100%;
 	display: flex;
@@ -214,6 +218,18 @@ header {
 	width: 31%;
 	background-color: orange;
 	margin-bottom: 2rem;
+}
+
+/*section*/
+.testimonial_space {
+	background-color: orange;
+	margin-top: 5.5rem;
+}
+
+.testimonial_box {
+	background-color: green;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /*Medias*/
