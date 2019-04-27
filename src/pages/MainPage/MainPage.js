@@ -196,35 +196,37 @@ const mainPage = () => {
 							<h2>Get In Touch</h2>
 						</div>
 					</div>
-				</div>
 
-				<div className="form_space">
-					<div className="form_box">
-						<Formik>
-							<Form>
-								<Field
-									name="name"
-									type="text"
-									placeholder="Please Enter Your Full Name."
-								/>
-								<Field
-									name="email"
-									type="email"
-									placeholder="E.g. johndoe@hotmail.com"
-								/>
-								<Field
-									name="message"
-									component="textarea"
-									placeholder="Enter Your Message Here!"
-								/>
-							</Form>
-						</Formik>
+					<div className="form_space">
+						<div className="form_box">
+							<Formik>
+								<Form>
+									<Field
+										name="name"
+										type="text"
+										placeholder="Please Enter Your Full Name."
+									/>
+									<Field
+										name="email"
+										type="email"
+										placeholder="E.g. johndoe@hotmail.com"
+									/>
+									<Field
+										name="message"
+										component="textarea"
+										placeholder="Enter Your Message Here!"
+									/>
+								</Form>
+							</Formik>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<footer className="sec_padding">
-				<h3>&Copy; 2019 Joshua Wiggins. All Rights Reserved.</h3>
+				<div className="container">
+					<h3>&Copy; 2019 Joshua Wiggins. All Rights Reserved.</h3>
+				</div>
 			</footer>
 		</div>
 	);
