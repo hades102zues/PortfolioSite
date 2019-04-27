@@ -144,14 +144,14 @@ header {
 
 .sec_title_underline {
 	margin-top: 1rem;
-	width: 10%;
+	width: 4rem;
 	height: 0.15rem;
 	background-color: orange;
 }
 
 .services_space {
 	background-color: yellow;
-	margin-top: 7rem;
+	margin-top: 5.5rem;
 }
 
 .services_box {
@@ -196,6 +196,26 @@ header {
 	margin-top: 1rem;
 }
 
+/**Section**/
+.portfolio_space {
+	background-color: violet;
+	margin-top: 5.5rem;
+}
+
+.portfolio_box {
+	background-color: red;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+}
+
+.portfolio_card {
+	height: 27rem;
+	width: 31%;
+	background-color: orange;
+	margin-bottom: 2rem;
+}
+
 /*Medias*/
 @media all and (max-width: 1024px) {
 	.nav_box {
@@ -203,6 +223,12 @@ header {
 	}
 	.hamburger_box {
 		display: flex;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.portfolio_box {
+		flex-direction: column;
 	}
 }
 
@@ -218,6 +244,19 @@ header {
 	.find_out_box {
 		width: 25%;
 	}
+
+	.service_card {
+		width: 50%;
+	}
+
+	.portfolio_box {
+		width: 100%;
+		margin: 0 0;
+	}
+
+	.portfolio_card {
+		width: 100%;
+	}
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
@@ -227,6 +266,18 @@ header {
 
 	.find_out_box {
 		width: 25%;
+	}
+
+	.service_card {
+		width: 50%;
+	}
+	.portfolio_box {
+		width: 40rem;
+		margin: 0 auto;
+	}
+
+	.portfolio_card {
+		width: 100%;
 	}
 }
 

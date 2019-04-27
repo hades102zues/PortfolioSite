@@ -82,18 +82,27 @@ const mainPage = () => {
 					<div className="sec_title_space">
 						<div className="sec_title_box">
 							<h2>Latest Work</h2>
-							<p>
-								Producing high quality responsive websites and
-								exceptional user experience. DIs Lorem is sum
-								ispumoke peache son.
-							</p>
-							<hr />
+							<div className="sec_title_underline" />
 						</div>
 					</div>
 
 					<div className="portfolio_space">
 						<div className="portfolio_box">
-							<Card style={{}}>
+							<Card className="portfolio_card" style={{}}>
+								<Card.Img variant="top" src="" />
+								<Card.Body>
+									<Card.Title>Beverty General</Card.Title>
+									<Card.Text>Hardware Store</Card.Text>
+								</Card.Body>
+							</Card>
+							<Card className="portfolio_card" style={{}}>
+								<Card.Img variant="top" src="" />
+								<Card.Body>
+									<Card.Title>Beverty General</Card.Title>
+									<Card.Text>Hardware Store</Card.Text>
+								</Card.Body>
+							</Card>
+							<Card className="portfolio_card" style={{}}>
 								<Card.Img variant="top" src="" />
 								<Card.Body>
 									<Card.Title>Beverty General</Card.Title>
