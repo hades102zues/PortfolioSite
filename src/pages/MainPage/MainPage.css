@@ -61,7 +61,7 @@ header {
 }
 
 .hamburger_box {
-	background-color: blue;
+	background-color: green;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -124,6 +124,6 @@ header {
 		display: none;
 	}
 	.hamburger_box {
-		display: block;
+		display: flex;
 	}
 }
