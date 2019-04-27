@@ -211,6 +211,8 @@ header {
 	display: flex;
 	flex-direction: row wrap;
 	justify-content: space-between;
+	max-width: 119rem;
+	margin: 0 auto;
 }
 
 .portfolio_card {
@@ -248,7 +250,7 @@ header {
 	}
 }
 
-@media all and (min-width: 320px) and (max-width: 479px) {
+@media all and (min-width: 320px) and (max-width: 480px) {
 	.logo_box {
 		width: 27%;
 	}
@@ -275,7 +277,7 @@ header {
 	}
 }
 
-@media all and (min-width: 480px) and (max-width: 767px) {
+@media all and (min-width: 480px) and (max-width: 768px) {
 	.selling_point_box {
 		width: 85%;
 	}
@@ -297,7 +299,7 @@ header {
 	}
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
 	.find_out_box {
 		width: 15%;
 	}
