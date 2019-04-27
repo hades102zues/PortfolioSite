@@ -127,3 +127,34 @@ header {
 		display: flex;
 	}
 }
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+	.logo_box {
+		width: 27%;
+	}
+
+	.selling_point_box {
+		width: 90%;
+	}
+
+	.find_out_box {
+		width: 25%;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+	.selling_point_box {
+		width: 85%;
+	}
+
+	.find_out_box {
+		width: 25%;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.find_out_box {
+		width: 15%;
+	}
+}
+
