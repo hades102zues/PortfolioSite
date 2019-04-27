@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainPage.css";
 import { Card } from "react-bootstrap";
+import { Formik, Form, Field } from "formik";
 
 const mainPage = () => {
 	return (
@@ -148,8 +149,83 @@ const mainPage = () => {
 							<div className="sec_title_underline" />
 						</div>
 					</div>
+
+					<div className="my_space">
+						<div className="my_box">
+							<div className="my_img_box">
+								<img alt="my_photo" />
+							</div>
+							<p className="my_title">Joshua Wiggins</p>
+							<p className="my_title">Full Stack Web Developer</p>
+
+							<div className="social_link_space">
+								<div className="social_link_box">
+									<a href="#">LinkedIn</a>
+								</div>
+							</div>
+
+							<p className="my_body">
+								Front-end Developer, author of CSS3 Foundations,
+								and graduate of Internet Technology. Ian
+								combines his education with 10 years commercial
+								experience in front-end development to produce
+								high-quality websites and exceptional user
+								experience. Lorem sump son goku dsnan Iche Ne
+								sa. Watashi wo nakudsu gran salma come on a nd
+								jamd
+							</p>
+						</div>
+					</div>
+					<div className="tools_space">
+						<div className="tools_box">
+							<p className="my_title">Tools</p>
+							<div className="tool_box_list">
+								<div className="tool_img_box">
+									<img alt="tool_item" />
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
+
+			<section className="sec_padding">
+				<div className="container">
+					<div className="sec_title_space">
+						<div className="sec_title_box">
+							<h2>Get In Touch</h2>
+						</div>
+					</div>
+				</div>
+
+				<div className="form_space">
+					<div className="form_box">
+						<Formik>
+							<Form>
+								<Field
+									name="name"
+									type="text"
+									placeholder="Please Enter Your Full Name."
+								/>
+								<Field
+									name="email"
+									type="email"
+									placeholder="E.g. johndoe@hotmail.com"
+								/>
+								<Field
+									name="message"
+									component="textarea"
+									placeholder="Enter Your Message Here!"
+								/>
+							</Form>
+						</Formik>
+					</div>
+				</div>
+			</section>
+
+			<footer className="sec_padding">
+				<h3>&Copy; 2019 Joshua Wiggins. All Rights Reserved.</h3>
+			</footer>
 		</div>
 	);
 };
