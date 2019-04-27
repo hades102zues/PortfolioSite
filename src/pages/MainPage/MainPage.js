@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainPage.css";
+import { Card } from "react-bootstrap";
 
 const mainPage = () => {
 	return (
@@ -29,7 +30,8 @@ const mainPage = () => {
 					</div>
 				</div>
 			</header>
-			<div className="showcase">
+
+			<section className="showcase">
 				<div className="selling_point_space">
 					<div className="selling_point_box">
 						<h1>Need A Web Presence</h1>
@@ -39,7 +41,69 @@ const mainPage = () => {
 				<div className="find_out_space">
 					<div className="find_out_box">P</div>
 				</div>
-			</div>
+			</section>
+
+			<section className="sec_padding">
+				<div className="container">
+					<div className="sec_title_space">
+						<div className="sec_title_box">
+							<h2>Services</h2>
+							<p>
+								Producing high quality responsive websites and
+								exceptional user experience. DIs Lorem is sum
+								ispumoke peache son.
+							</p>
+							<div className="sec_title_underline" />
+						</div>
+					</div>
+
+					<div className="services_space">
+						<div className="services_box">
+							<article className="service_card">
+								<div className="service_img_space">
+									<div className="service_img_box">
+										<img alt="service_icon" />
+									</div>
+								</div>
+								<div className="service_body">
+									<p className="service_title">Something</p>
+									<p className="service_description">
+										blah blah blah
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className="sec_padding">
+				<div className="container">
+					<div className="sec_title_space">
+						<div className="sec_title_box">
+							<h2>Latest Work</h2>
+							<p>
+								Producing high quality responsive websites and
+								exceptional user experience. DIs Lorem is sum
+								ispumoke peache son.
+							</p>
+							<hr />
+						</div>
+					</div>
+
+					<div className="portfolio_space">
+						<div className="portfolio_box">
+							<Card style={{}}>
+								<Card.Img variant="top" src="" />
+								<Card.Body>
+									<Card.Title>Beverty General</Card.Title>
+									<Card.Text>Hardware Store</Card.Text>
+								</Card.Body>
+							</Card>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 };
