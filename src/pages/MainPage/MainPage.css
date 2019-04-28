@@ -248,6 +248,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	width: 70%;
+	max-width: 114.3rem;
 }
 
 .my_img_box {
