@@ -20,7 +20,7 @@ const mainPage = () => {
 									<li>Contact</li>
 								</ul>
 							</nav>
-							<div class="hamburger_box">
+							<div className="hamburger_box">
 								<div className="hamburger">
 									<div className="hamburger__slice" />
 									<div className="hamburger__slice" />
@@ -32,7 +32,7 @@ const mainPage = () => {
 				</div>
 			</header>
 
-			<section className="showcase">
+			<section className="showcase sec_pop">
 				<div className="selling_point_space">
 					<div className="selling_point_box">
 						<h1>Need A Web Presence</h1>
@@ -207,7 +207,7 @@ const mainPage = () => {
 				</div>
 			</section>
 
-			<section className="sec_padding">
+			<section className="sec_padding sec_pop">
 				<div className="container">
 					<div className="sec_title_space">
 						<div className="sec_title_box">
@@ -218,22 +218,36 @@ const mainPage = () => {
 					<div className="form_space">
 						<div className="form_box">
 							<Formik>
-								<Form>
+								<Form className="form">
 									<Field
+										className="form_input"
 										name="name"
 										type="text"
 										placeholder="Please Enter Your Full Name."
 									/>
 									<Field
+										className="form_input"
 										name="email"
 										type="email"
 										placeholder="E.g. johndoe@hotmail.com"
 									/>
 									<Field
+										className="form_input"
+										name="subject"
+										type="text"
+										placeholder="E.g. Request For Hire"
+									/>
+									<Field
+										className="form_textarea"
 										name="message"
 										component="textarea"
 										placeholder="Enter Your Message Here!"
 									/>
+									<div className="form_button_space">
+										<div className="form_button_box">
+											<button type="submit">Send</button>
+										</div>
+									</div>
 								</Form>
 							</Formik>
 						</div>
