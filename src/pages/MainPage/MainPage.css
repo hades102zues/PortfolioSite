@@ -295,6 +295,28 @@ header {
 	margin-top: 2rem;
 }
 
+.my_title {
+	margin-top: 2.5rem;
+	text-align: center;
+}
+.tool_box_list {
+	margin-top: 2rem;
+	background-color: blue;
+	width: 60%;
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 51.4rem;
+	justify-content: space-between;
+}
+
+.tool_img_box {
+	height: 5.5rem;
+	width: 5.5rem;
+	margin-bottom: 2rem;
+
+	background-color: orange;
+}
+
 /*Medias*/
 @media all and (max-width: 1024px) {
 	.nav_box {
@@ -336,6 +358,11 @@ header {
 	.portfolio_card {
 		width: 100%;
 	}
+
+	.tool_box_list {
+		flex-flow: column nowrap;
+		align-items: center;
+	}
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -363,5 +390,11 @@ header {
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	.find_out_box {
 		width: 15%;
+	}
+}
+
+@media all and (min-width: 1366px) and (max-width: 1920px) {
+	.tool_box_list {
+		width: 45%;
 	}
 }

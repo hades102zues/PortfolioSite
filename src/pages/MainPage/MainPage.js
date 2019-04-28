@@ -183,12 +183,21 @@ const mainPage = () => {
 								sa. Watashi wo nakudsu gran salma come on a nd
 								jamd
 							</p>
-						</div>
-					</div>
-					<div className="tools_space">
-						<div className="tools_box">
+
 							<p className="my_title">Tools</p>
 							<div className="tool_box_list">
+								<div className="tool_img_box">
+									<img alt="tool_item" />
+								</div>
+								<div className="tool_img_box">
+									<img alt="tool_item" />
+								</div>
+								<div className="tool_img_box">
+									<img alt="tool_item" />
+								</div>
+								<div className="tool_img_box">
+									<img alt="tool_item" />
+								</div>
 								<div className="tool_img_box">
 									<img alt="tool_item" />
 								</div>
