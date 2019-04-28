@@ -383,7 +383,7 @@ header {
 	height: 3.8rem;
 	border: none;
 	margin-bottom: 2rem;
-	padding-left: 0.5rem;
+	padding-left: 0.75rem;
 	border-radius: 3px;
 }
 
@@ -392,6 +392,7 @@ header {
 	width: 100%;
 	border: none;
 	height: 12rem;
+	padding-left: 0.75rem;
 	border-radius: 3px;
 }
 
@@ -414,6 +415,17 @@ header {
 	color: white;
 
 	background-color: purple;
+}
+
+/*Section Footer*/
+footer {
+	background-color: #09181e;
+	color: white;
+	display: flex;
+}
+
+.footer_text {
+	text-align: center;
 }
 
 /*Medias*/

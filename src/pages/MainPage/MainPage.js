@@ -257,7 +257,9 @@ const mainPage = () => {
 
 			<footer className="sec_padding">
 				<div className="container">
-					<h3>&Copy; 2019 Joshua Wiggins. All Rights Reserved.</h3>
+					<h3 className="footer_text">
+						&copy; 2019 Joshua Wiggins. All Rights Reserved.
+					</h3>
 				</div>
 			</footer>
 		</div>
