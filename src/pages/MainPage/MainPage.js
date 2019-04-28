@@ -155,12 +155,21 @@ const mainPage = () => {
 							<div className="my_img_box">
 								<img alt="my_photo" />
 							</div>
-							<p className="my_title">Joshua Wiggins</p>
+							<p className="my_name">Joshua Wiggins</p>
 							<p className="my_title">Full Stack Web Developer</p>
 
 							<div className="social_link_space">
 								<div className="social_link_box">
-									<a href="#">LinkedIn</a>
+									<a href="#">
+										<div class="social_link_icon">
+											LinkedIn
+										</div>
+									</a>
+									<a href="#">
+										<div class="social_link_icon">
+											LinkedIn
+										</div>
+									</a>
 								</div>
 							</div>
 

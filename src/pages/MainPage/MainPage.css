@@ -234,6 +234,66 @@ header {
 	margin: 0 auto;
 }
 
+/*Section*/
+.my_space {
+	background-color: green;
+	margin-top: 5.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.my_box {
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+}
+
+.my_img_box {
+	width: 9.5rem;
+	height: 9.5rem;
+	background-color: blue;
+	border-radius: 50%;
+}
+
+.my_img_box img {
+	width: 9.5rem;
+	height: 9.5rem;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.my_name {
+	margin-top: 2rem;
+}
+.my_title {
+	margin-top: 0.5rem;
+}
+
+.social_link_space {
+	background-color: orange;
+	margin-top: 1.2rem;
+}
+
+.social_link_box {
+	display: flex;
+	justify-content: center;
+}
+
+.social_link_icon {
+	background-color: red;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	margin-right: 1.5rem;
+}
+
+.my_body {
+	text-align: center;
+	margin-top: 2rem;
+}
+
 /*Medias*/
 @media all and (max-width: 1024px) {
 	.nav_box {
