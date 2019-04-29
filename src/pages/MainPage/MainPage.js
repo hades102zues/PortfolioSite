@@ -22,22 +22,19 @@ class MainPage extends Component {
 							</Link>
 							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 							<Navbar.Collapse id="responsive-navbar-nav">
-								<Nav className="mr-auto" />
 								<Nav className="adjust">
 									<Link to="services" duration={1000} smooth>
-										<Nav.Link>Serivces</Nav.Link>
+										<Nav.Link href="#">Serivces</Nav.Link>
 									</Link>
-
 									<Link to="portfolio" duration={1000} smooth>
-										<Nav.Link>Portfolio</Nav.Link>
+										<Nav.Link href="#">Portfolio</Nav.Link>
 									</Link>
-
 									<Link to="about" duration={1000} smooth>
-										<Nav.Link>About</Nav.Link>
+										<Nav.Link href="#">About</Nav.Link>
 									</Link>
 
 									<Link to="contact" duration={1000} smooth>
-										<Nav.Link>Contact</Nav.Link>
+										<Nav.Link href="#">Contact</Nav.Link>
 									</Link>
 								</Nav>
 							</Navbar.Collapse>
