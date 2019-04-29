@@ -264,6 +264,19 @@ header {
 	margin-bottom: 2rem;
 }
 
+.portfolio_card_box {
+	background-color: green;
+	height: 17.2rem;
+	width: 100%;
+}
+
+.portfolio_card_img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border: none;
+}
+
 /*testimonial section*/
 .testimonial_space {
 	background-color: orange;
@@ -303,6 +316,7 @@ header {
 
 .testimonial_body {
 	background-color: green;
+	text-align: center;
 }
 
 /* About Me Section*/
@@ -511,6 +525,14 @@ footer {
 		flex-flow: column nowrap;
 		align-items: center;
 	}
+
+	.testimonial_box {
+		width: 100%;
+	}
+
+	.my_box {
+		width: 100%;
+	}
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -533,11 +555,22 @@ footer {
 	.portfolio_card {
 		width: 100%;
 	}
+
+	.testimonial_box {
+		width: 100%;
+	}
+	.my_box {
+		width: 100%;
+	}
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	.find_out_box {
 		width: 15%;
+	}
+
+	.testimonial_box {
+		width: 85%;
 	}
 }
 

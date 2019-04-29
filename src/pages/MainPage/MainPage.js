@@ -92,22 +92,43 @@ class MainPage extends Component {
 
 						<div className="portfolio_space">
 							<div className="portfolio_box">
-								<Card className="portfolio_card" style={{}}>
-									<Card.Img variant="top" src="" />
+								<Card className="portfolio_card">
+									<div className="portfolio_card_box">
+										<Card.Img
+											className="portfolio_card_img"
+											variant="top"
+											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+										/>
+									</div>
+
 									<Card.Body>
 										<Card.Title>Beverty General</Card.Title>
 										<Card.Text>Hardware Store</Card.Text>
 									</Card.Body>
 								</Card>
-								<Card className="portfolio_card" style={{}}>
-									<Card.Img variant="top" src="" />
+								<Card className="portfolio_card">
+									<div className="portfolio_card_box">
+										<Card.Img
+											className="portfolio_card_img"
+											variant="top"
+											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+										/>
+									</div>
+
 									<Card.Body>
 										<Card.Title>Beverty General</Card.Title>
 										<Card.Text>Hardware Store</Card.Text>
 									</Card.Body>
 								</Card>
-								<Card className="portfolio_card" style={{}}>
-									<Card.Img variant="top" src="" />
+								<Card className="portfolio_card">
+									<div className="portfolio_card_box">
+										<Card.Img
+											className="portfolio_card_img"
+											variant="top"
+											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+										/>
+									</div>
+
 									<Card.Body>
 										<Card.Title>Beverty General</Card.Title>
 										<Card.Text>Hardware Store</Card.Text>
