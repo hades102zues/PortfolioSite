@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./MainPage.css";
-import { Card, Carousel } from "react-bootstrap";
+import { Card, Carousel, Navbar } from "react-bootstrap";
 import { Formik, Form, Field } from "formik";
 
 class MainPage extends Component {
@@ -8,29 +8,11 @@ class MainPage extends Component {
 		return (
 			<div className="mainPage">
 				<header>
-					<div className="container">
-						<div className="header_orderer">
-							<div className="logo_space">
-								<div className="logo_box">P</div>
-							</div>
-							<div className="nav_space">
-								<nav className="nav_box">
-									<ul>
-										<li>Logo</li>
-										<li>Services</li>
-										<li>Contact</li>
-									</ul>
-								</nav>
-								<div className="hamburger_box">
-									<div className="hamburger">
-										<div className="hamburger__slice" />
-										<div className="hamburger__slice" />
-										<div className="hamburger__slice" />
-									</div>
-								</div>
-							</div>
+					<Navbar bg="dark" variant="dark" className="nav_space">
+						<div className="container">
+							<Navbar.Brand> Joshua Wiggins</Navbar.Brand>
 						</div>
-					</div>
+					</Navbar>
 				</header>
 
 				<section className="showcase sec_pop">
