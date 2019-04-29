@@ -52,11 +52,10 @@
 	height: 100%;
 	width: 85%;
 	overflow: none;
-	margin: 0 auto;
+	margin: auto auto;
 }
 
 header {
-	height: 5rem;
 	background-color: grey;
 	position: fixed;
 	width: 100%;
@@ -64,7 +63,12 @@ header {
 }
 
 .nav_space {
-	height: 100%;
+	padding: 0.5rem 0;
+}
+
+.adjust {
+	/*works because nav enforces flex-flow of column*/
+	align-items: center;
 }
 
 /**Section**/

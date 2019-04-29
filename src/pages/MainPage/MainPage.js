@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./MainPage.css";
-import { Card, Carousel, Navbar } from "react-bootstrap";
+import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
 import { Formik, Form, Field } from "formik";
 
 class MainPage extends Component {
@@ -8,9 +8,25 @@ class MainPage extends Component {
 		return (
 			<div className="mainPage">
 				<header>
-					<Navbar bg="dark" variant="dark" className="nav_space">
+					<Navbar
+						collapseOnSelect
+						expand="lg"
+						bg="dark"
+						variant="dark"
+						className="nav_space"
+					>
 						<div className="container">
-							<Navbar.Brand> Joshua Wiggins</Navbar.Brand>
+							<Navbar.Brand>Joshua Wiggins</Navbar.Brand>
+							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+							<Navbar.Collapse id="responsive-navbar-nav">
+								<Nav className="mr-auto" />
+								<Nav className="adjust">
+									<Nav.Link>Serivces</Nav.Link>
+									<Nav.Link>Portfolio</Nav.Link>
+									<Nav.Link>About</Nav.Link>
+									<Nav.Link>Contact</Nav.Link>
+								</Nav>
+							</Navbar.Collapse>
 						</div>
 					</Navbar>
 				</header>
