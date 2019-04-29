@@ -56,7 +56,7 @@ header {
 	background-image: linear-gradient(
 		153deg,
 		#5100cb 0,
-		#6500fc 42%,
+		#6500fc 32%,
 		#9617c9 75%,
 		#d33092 100%
 	);
@@ -264,7 +264,7 @@ header {
 	margin-bottom: 2rem;
 }
 
-/*section*/
+/*testimonial section*/
 .testimonial_space {
 	background-color: orange;
 	margin-top: 5.5rem;
@@ -272,11 +272,40 @@ header {
 
 .testimonial_box {
 	background-color: green;
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 
-/*Section*/
+.testimonial {
+	background-color: red;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.testimonial_img_box {
+	background-color: green;
+	border-radius: 50%;
+	height: 4rem;
+	width: 4rem;
+}
+
+.testimonial_quote_icon {
+	object-fit: cover;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+.testimonial_name {
+	margin-top: 1.6rem;
+}
+
+.testimonial_body {
+	background-color: green;
+}
+
+/* About Me Section*/
 .my_space {
 	background-color: green;
 	margin-top: 5.5rem;
