@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./MainPage.css";
 import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
 import { Formik, Form, Field } from "formik";
+import { Link, Element } from "react-scroll";
 
 class MainPage extends Component {
 	render() {
@@ -16,38 +17,55 @@ class MainPage extends Component {
 						className="nav_space"
 					>
 						<div className="container">
-							<Navbar.Brand>Joshua Wiggins</Navbar.Brand>
+							<Link to="showcase" smooth duration={1000}>
+								<Navbar.Brand>Joshua Wiggins</Navbar.Brand>
+							</Link>
 							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 							<Navbar.Collapse id="responsive-navbar-nav">
 								<Nav className="mr-auto" />
 								<Nav className="adjust">
-									<Nav.Link>Serivces</Nav.Link>
-									<Nav.Link>Portfolio</Nav.Link>
-									<Nav.Link>About</Nav.Link>
-									<Nav.Link>Contact</Nav.Link>
+									<Link to="services" duration={1000} smooth>
+										<Nav.Link>Serivces</Nav.Link>
+									</Link>
+
+									<Link to="portfolio" duration={1000} smooth>
+										<Nav.Link>Portfolio</Nav.Link>
+									</Link>
+
+									<Link to="about" duration={1000} smooth>
+										<Nav.Link>About</Nav.Link>
+									</Link>
+
+									<Link to="contact" duration={1000} smooth>
+										<Nav.Link>Contact</Nav.Link>
+									</Link>
 								</Nav>
 							</Navbar.Collapse>
 						</div>
 					</Navbar>
 				</header>
-
-				<section className="showcase sec_pop">
-					<div className="selling_point_space">
-						<div className="selling_point_box">
-							<h1>Need A Web Presence</h1>
-							<p>Offlaa</p>
+				<Element name="showcase">
+					<section className="showcase sec_pop">
+						<div className="selling_point_space">
+							<div className="selling_point_box">
+								<h1>Need A Web Presence</h1>
+								<p>Offlaa</p>
+							</div>
 						</div>
-					</div>
-					<div className="find_out_space">
-						<div className="find_out_box">P</div>
-					</div>
-				</section>
+						<div className="find_out_space">
+							<div className="find_out_box">P</div>
+						</div>
+					</section>
+				</Element>
 
 				<section className="sec_padding">
 					<div className="container">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<h2>Services</h2>
+								<Element name="services">
+									<h2>Services</h2>
+								</Element>
+
 								<p>
 									Producing high quality responsive websites
 									and exceptional user experience. DIs Lorem
@@ -83,7 +101,9 @@ class MainPage extends Component {
 					<div className="container">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<h2>Latest Work</h2>
+								<Element name="portfolio">
+									<h2>Latest Work</h2>
+								</Element>
 								<div className="sec_title_underline" />
 							</div>
 						</div>
@@ -205,7 +225,9 @@ class MainPage extends Component {
 					<div className="container">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<h2>About Me</h2>
+								<Element name="about">
+									<h2>About Me</h2>
+								</Element>
 								<div className="sec_title_underline" />
 							</div>
 						</div>
@@ -273,7 +295,9 @@ class MainPage extends Component {
 					<div className="container">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<h2>Get In Touch</h2>
+								<Element name="contact">
+									<h2>Get In Touch</h2>
+								</Element>
 							</div>
 						</div>
 
