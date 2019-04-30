@@ -16,25 +16,50 @@ class MainPage extends Component {
 						variant="dark"
 						className="nav_space"
 					>
-						<div className="container">
-							<Link to="showcase" smooth duration={1000}>
-								<Navbar.Brand>Joshua Wiggins</Navbar.Brand>
+						<div className="container wrapper">
+							<Link
+								to="showcase"
+								activeClass="sec_pop"
+								smooth
+								duration={1000}
+							>
+								<Navbar.Brand>
+									<span class=" brand">Joshua Wiggins</span>
+								</Navbar.Brand>
 							</Link>
 							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 							<Navbar.Collapse id="responsive-navbar-nav">
+								<Nav className="mr-auto" />
 								<Nav className="adjust">
 									<Link to="services" duration={1000} smooth>
-										<Nav.Link href="#">Serivces</Nav.Link>
+										<Nav.Link href="#">
+											<span className="nav_text">
+												Serivces
+											</span>
+										</Nav.Link>
 									</Link>
+
 									<Link to="portfolio" duration={1000} smooth>
-										<Nav.Link href="#">Portfolio</Nav.Link>
+										<Nav.Link href="#">
+											<span className="nav_text">
+												Portfolio
+											</span>
+										</Nav.Link>
 									</Link>
 									<Link to="about" duration={1000} smooth>
-										<Nav.Link href="#">About</Nav.Link>
+										<Nav.Link href="#">
+											<span className="nav_text">
+												About
+											</span>
+										</Nav.Link>
 									</Link>
 
 									<Link to="contact" duration={1000} smooth>
-										<Nav.Link href="#">Contact</Nav.Link>
+										<Nav.Link href="#">
+											<span className="nav_text">
+												Contact
+											</span>
+										</Nav.Link>
 									</Link>
 								</Nav>
 							</Navbar.Collapse>
@@ -45,29 +70,28 @@ class MainPage extends Component {
 					<section className="showcase sec_pop">
 						<div className="selling_point_space">
 							<div className="selling_point_box">
-								<h1>Need A Web Presence</h1>
-								<p>Offlaa</p>
+								<h1>Full-Stack Web Developer</h1>
+								<p>
+									Producing high quality responsive websites.
+								</p>
 							</div>
 						</div>
 						<div className="find_out_space">
-							<div className="find_out_box">P</div>
+							<div className="find_out_box">
+								<Link to="services" duration={1000} smooth>
+									<button>Find out More </button>
+								</Link>
+							</div>
 						</div>
 					</section>
 				</Element>
 
+				<Element name="services" />
 				<section className="sec_padding">
-					<div className="container">
+					<div className="wrapper">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<Element name="services">
-									<h2>Services</h2>
-								</Element>
-
-								<p>
-									Producing high quality responsive websites
-									and exceptional user experience. DIs Lorem
-									is sum ispumoke peache son.
-								</p>
+								<h2>Services</h2>
 								<div className="sec_title_underline" />
 							</div>
 						</div>
@@ -89,18 +113,63 @@ class MainPage extends Component {
 										</p>
 									</div>
 								</article>
+								<article className="service_card">
+									<div className="service_img_space">
+										<div className="service_img_box">
+											<img alt="service_icon" />
+										</div>
+									</div>
+									<div className="service_body">
+										<p className="service_title">
+											Something
+										</p>
+										<p className="service_description">
+											blah blah blah
+										</p>
+									</div>
+								</article>
+								<article className="service_card">
+									<div className="service_img_space">
+										<div className="service_img_box">
+											<img alt="service_icon" />
+										</div>
+									</div>
+									<div className="service_body">
+										<p className="service_title">
+											Something
+										</p>
+										<p className="service_description">
+											blah blah blah
+										</p>
+									</div>
+								</article>
+								<article className="service_card">
+									<div className="service_img_space">
+										<div className="service_img_box">
+											<img alt="service_icon" />
+										</div>
+									</div>
+									<div className="service_body">
+										<p className="service_title">
+											Something
+										</p>
+										<p className="service_description">
+											blah blah blah
+										</p>
+									</div>
+								</article>
 							</div>
 						</div>
 					</div>
 				</section>
 
+				<Element name="portfolio" />
 				<section className="sec_padding sec_grey">
-					<div className="container">
+					<div className="wrapper">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<Element name="portfolio">
-									<h2>Latest Work</h2>
-								</Element>
+								<h2>Latest Work</h2>
+
 								<div className="sec_title_underline" />
 							</div>
 						</div>
@@ -156,7 +225,7 @@ class MainPage extends Component {
 
 				{/*Testimonial Section*/}
 				<section className="sec_padding">
-					<div className="container">
+					<div className="wrapper">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
 								<h2>Testimonials</h2>
@@ -218,13 +287,13 @@ class MainPage extends Component {
 					</div>
 				</section>
 
+				<Element name="about" />
 				<section className="sec_padding sec_grey">
-					<div className="container">
+					<div className="wrapper">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<Element name="about">
-									<h2>About Me</h2>
-								</Element>
+								<h2>About Me</h2>
+
 								<div className="sec_title_underline" />
 							</div>
 						</div>
@@ -288,13 +357,12 @@ class MainPage extends Component {
 					</div>
 				</section>
 
+				<Element name="contact" />
 				<section className="sec_padding sec_pop">
-					<div className="container">
+					<div className="wrapper">
 						<div className="sec_title_space">
 							<div className="sec_title_box">
-								<Element name="contact">
-									<h2>Get In Touch</h2>
-								</Element>
+								<h2>Get In Touch</h2>
 							</div>
 						</div>
 
@@ -341,7 +409,7 @@ class MainPage extends Component {
 				</section>
 
 				<footer className="sec_padding">
-					<div className="container">
+					<div className="wrapper">
 						<h3 className="footer_text">
 							&copy; 2019 Joshua Wiggins. All Rights Reserved.
 						</h3>
