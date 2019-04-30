@@ -3,6 +3,8 @@ import "./MainPage.css";
 import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
 import { Formik, Form, Field } from "formik";
 import { Link, Element } from "react-scroll";
+import { Parallax } from "react-parallax";
+import showcase_img from "./assests/paralax1.jpeg";
 
 class MainPage extends Component {
 	render() {
@@ -66,24 +68,32 @@ class MainPage extends Component {
 						</div>
 					</Navbar>
 				</header>
+
 				<Element name="showcase">
-					<section className="showcase sec_pop">
-						<div className="selling_point_space">
-							<div className="selling_point_box">
-								<h1>Full-Stack Web Developer</h1>
-								<p>
-									Producing high quality responsive websites.
-								</p>
+					<Parallax
+						bgImageAlt="showcase_image"
+						bgImage={showcase_img}
+						strength={200}
+					>
+						<section className="showcase ">
+							<div className="selling_point_space">
+								<div className="selling_point_box">
+									<h1>Full-Stack Web Developer</h1>
+									<p>
+										Producing high quality responsive
+										websites.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div className="find_out_space">
-							<div className="find_out_box">
-								<Link to="services" duration={1000} smooth>
-									<button>Find out More </button>
-								</Link>
+							<div className="find_out_space">
+								<div className="find_out_box">
+									<Link to="services" duration={1000} smooth>
+										<button>Find out More </button>
+									</Link>
+								</div>
 							</div>
-						</div>
-					</section>
+						</section>
+					</Parallax>
 				</Element>
 
 				<Element name="services" />
