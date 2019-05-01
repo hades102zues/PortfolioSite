@@ -168,20 +168,37 @@ class MainPage extends Component {
 
 						<div className="portfolio_space">
 							<div className="portfolio_box">
-								<Card className="portfolio_card">
-									<div className="portfolio_card_box">
-										<Card.Img
-											className="portfolio_card_img"
-											variant="top"
-											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-										/>
-									</div>
+								<a
+									className="portfolio_card"
+									href="https://facebook.com"
+									rel="noopener"
+									target="_blank"
+								>
+									<Card
+										style={{
+											width: "100%",
+											height: "100%",
+											border: "none"
+										}}
+									>
+										<div className="portfolio_card_box">
+											<Card.Img
+												className="portfolio_card_img"
+												variant="top"
+												src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+											/>
+										</div>
 
-									<Card.Body>
-										<Card.Title>Beverty General</Card.Title>
-										<Card.Text>Hardware Store</Card.Text>
-									</Card.Body>
-								</Card>
+										<Card.Body>
+											<Card.Title className="portfolio_card_title">
+												Beverty General
+											</Card.Title>
+											<Card.Text className="portfolio_card_text">
+												Hardware Store
+											</Card.Text>
+										</Card.Body>
+									</Card>
+								</a>
 								<Card className="portfolio_card">
 									<div className="portfolio_card_box">
 										<Card.Img

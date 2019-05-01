@@ -274,12 +274,10 @@ header {
 
 /**Section**/
 .portfolio_space {
-	background-color: violet;
 	margin-top: 5.5rem;
 }
 
 .portfolio_box {
-	background-color: red;
 	display: flex;
 	flex-direction: row wrap;
 	justify-content: space-between;
@@ -288,14 +286,15 @@ header {
 }
 
 .portfolio_card {
+	cursor: pointer;
 	height: 27rem;
 	width: 31%;
-	background-color: orange;
 	margin-bottom: 2rem;
+	border: none;
+	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio_card_box {
-	background-color: green;
 	height: 17.2rem;
 	width: 100%;
 }
@@ -305,6 +304,17 @@ header {
 	height: 100%;
 	object-fit: cover;
 	border: none;
+}
+
+.portfolio_card_title {
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+}
+
+.portfolio_card_text {
+	text-align: center;
+	font-size: 1.2rem;
 }
 
 /*testimonial section*/
