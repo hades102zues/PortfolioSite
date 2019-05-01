@@ -227,10 +227,15 @@ header {
 .service_card {
 	margin-right: 2rem;
 	margin-bottom: 2rem;
-	padding: 4.2rem;
-	width: 23%;
+	padding: 4.2rem 2rem;
+	max-width: 44.1rem;
+	width: 27%;
 	background-color: #f8faff;
-	height: 27rem;
+}
+
+.service_card:hover {
+	background-color: #6500fc;
+	color: white;
 }
 
 .service_img_space {
@@ -255,11 +260,14 @@ header {
 	flex-direction: column;
 }
 .service_title {
-	margin-top: 1.5rem;
+	margin-top: 1.75rem;
+	font-size: 1.4rem;
+	font-weight: 700;
 }
 
 .service_description {
 	margin-top: 1rem;
+	font-size: 1.2rem;
 	text-align: center;
 	line-height: 1.5;
 }
@@ -535,7 +543,8 @@ footer {
 	}
 
 	.service_card {
-		width: 50%;
+		width: 85%;
+		margin: 0 auto 2rem auto;
 	}
 
 	.portfolio_box {
@@ -587,7 +596,8 @@ footer {
 	}
 
 	.service_card {
-		width: 50%;
+		width: 70%;
+		margin: 0 auto 2rem auto;
 	}
 	.portfolio_box {
 		width: 40rem;

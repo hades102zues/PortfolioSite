@@ -123,8 +123,9 @@ class MainPage extends Component {
 											WEB DEVELOPMENT
 										</p>
 										<p className="service_description">
-											I build high-quality websites that
-											will engage your clients and give
+											Invest in a high-quality website
+											that will engage your clients,
+											present your services and give
 											credibility to your business.
 										</p>
 									</div>
@@ -143,10 +144,9 @@ class MainPage extends Component {
 											RESPONSIVE DESIGN
 										</p>
 										<p className="service_description">
-											Experience matters. I put the effort
-											in to make sure that your website
-											looks great across all devices:
-											mobile, tablet and desktop.
+											Experience matters. A well crafted
+											website looks great across all
+											devices: mobile, tablet and desktop.
 										</p>
 									</div>
 								</article>
