@@ -214,7 +214,6 @@ header {
 }
 
 .services_space {
-	background-color: yellow;
 	margin-top: 5.5rem;
 }
 
@@ -231,7 +230,7 @@ header {
 	padding: 4.2rem;
 	width: 23%;
 	background-color: #f8faff;
-	height: 24rem;
+	height: 27rem;
 }
 
 .service_img_space {
@@ -240,10 +239,8 @@ header {
 }
 
 .service_img_box {
-	height: 4rem;
-	width: 4rem;
-	background-color: blue;
-	border-radius: 50%;
+	height: 6rem;
+	width: 6rem;
 }
 
 .service_img_box img {
@@ -263,6 +260,8 @@ header {
 
 .service_description {
 	margin-top: 1rem;
+	text-align: center;
+	line-height: 1.5;
 }
 
 /**Section**/

@@ -112,30 +112,41 @@ class MainPage extends Component {
 								<article className="service_card">
 									<div className="service_img_space">
 										<div className="service_img_box">
-											<img alt="service_icon" />
+											<img
+												alt="webpage_icon"
+												src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADKgAAAyoBEJdYGAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHRSURBVGiB7ZYxSxxBGIafb+4S5CxEonhptBQLU6j5ESJiLUgUBIMWdoIIGgi26UyRQEBEsJeAf+KURIjCWcUmES+Cghqi7mdhcmzMjc7lXMeFeaplvvlm3ndfdmYhEAgEfCK2Qnf32CPT8vO1KoNA2z1qivNVhJVor25uff39WaUJWVvnb/HTyWlzok2VaZpPFZipNMHYOlUZTkxWlYjIiK1mTQB4+ufhuZzwUkqoCO+iJxQ0B0DU/piLvhwgZD4eY4q/ys0L81N0dbb/t+jC5jaTs2/+0XIdawJxJqREi5yT54xxUyqPX/TXo40ZtNFw3p/7q6cW8QA9zzqc5jkZMLFP3WisEBsXsZ4HieJkYCFq4odmOSDLW20qj2dWj+EoQo6iq+cYn7d2ahL26UvRaZ71tfX0vlBbzQeFtaWKWp0SeMik3oD9GB2YvUcZDqwtVRxOfQKpN3DTTVxmqKu15o2WN3arXi/eYyP1CQQDvgkGfBMM+CYY8E3qDTj9Srhc6b5IfQKpN+Dlb/QuSX0CwYBvggHf3HQKfQfycPcnSPXryTdbxZqAKItV7pIYii7aatYEInM4Z6IGFEYRmhNRdhvKvsAHNYevvOwfCAQCt3IJSIxvw5vafesAAAAASUVORK5CYII="
+											/>
 										</div>
 									</div>
 									<div className="service_body">
 										<p className="service_title">
-											Something
+											WEB DEVELOPMENT
 										</p>
 										<p className="service_description">
-											blah blah blah
+											I build high-quality websites that
+											will engage your clients and give
+											credibility to your business.
 										</p>
 									</div>
 								</article>
 								<article className="service_card">
 									<div className="service_img_space">
 										<div className="service_img_box">
-											<img alt="service_icon" />
+											<img
+												alt="pc_and_mobile_icon"
+												src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJeSURBVGiB7ZlNaBNBFMd/k82hPVhJGgsttoJ4FBQs9OjJSg4ifoEfkLN4UTxUQk8FoeghSHuQHr1IK62CRfQQLz2KgR4qUq0t1lJLbBoTCU1hk/FQk9Zsstu0mayx8zu9eTPz5v2Z3Z2PBY1mfyPKOa/cvteFNCISTgOBOue0imDKyHv6xobvf3FqbBFw9W5/p2nKacCvJL2ds5aX5onnww+X7Bp5Sh1mTj7C/eQB/B7hjTg18lo8kjMF89L1mwTa2muclz2r8WUmno5sFgS9Tu0tMwAcKBj1Tn5zzI6tguSgU/tyAhoKLcBtrC+xAn4mE7waH2Ph8ycymV9V9e0Ohn4gmJJS9MVeP7GsC8pnIJVcY2hwgJnpWNXJ/yGA5KJAvusJ3jhcWqlcwOT4KOuZTC1C+fNl1gXlj9Dcxw9Fu//WNTrbD1XV/+tynMHHowBIKS3rgvIZ2NjIFu1qkwc40tG2vWhZFxr+K6QFuI0W4DZagNtoAW6jBbhNOQHpghFfsb3R+Cco7kZ7zp5PAS3fZrd2j0MDd/Y+gsfxXL638AVDSN4qHUkRRQGmR4aBpIu57IqigPdvXs6aufxJYALY1dnPDf46kcWik4vA5VoO0B0MyVrGK+W//Iw2FFqA29RVwMLSStV95he/29bX5WqxwIORZzWPWQ8BaaClUqXpayZx4TgAgRczGMl1u1ipUofyR0hiv0XJHmsl52sm52sme7TVKVq01KNcgJD5sLDZojTNJTDSWbypLE3zicpxIGkYRriMXz2nzoW6hCkjIHrZ9gtrh6QRRCtdr2s0+53fo/ukGkbaEQgAAAAASUVORK5CYII="
+											/>
 										</div>
 									</div>
 									<div className="service_body">
 										<p className="service_title">
-											Something
+											RESPONSIVE DESIGN
 										</p>
 										<p className="service_description">
-											blah blah blah
+											Experience matters. I put the effort
+											in to make sure that your website
+											looks great across all devices:
+											mobile, tablet and desktop.
 										</p>
 									</div>
 								</article>
