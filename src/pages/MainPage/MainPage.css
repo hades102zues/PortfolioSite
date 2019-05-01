@@ -171,7 +171,7 @@ header {
 .sec_title_underline {
 	margin-top: 1rem;
 	width: 4rem;
-	height: 0.15rem;
+	height: 0.35rem;
 	background-image: -webkit-linear-gradient(
 		153deg,
 		#5100cb 0,
@@ -228,8 +228,10 @@ header {
 .service_card {
 	margin-right: 2rem;
 	margin-bottom: 2rem;
-	width: 33%;
-	background-color: green;
+	padding: 4.2rem;
+	width: 23%;
+	background-color: #f8faff;
+	height: 24rem;
 }
 
 .service_img_space {
@@ -238,8 +240,8 @@ header {
 }
 
 .service_img_box {
-	height: 8rem;
-	width: 8rem;
+	height: 4rem;
+	width: 4rem;
 	background-color: blue;
 	border-radius: 50%;
 }

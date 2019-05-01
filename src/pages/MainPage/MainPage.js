@@ -4,6 +4,7 @@ import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
 import { Formik, Form, Field } from "formik";
 import { Link, Element } from "react-scroll";
 import { Parallax } from "react-parallax";
+
 import showcase_img from "./assests/paralax1.jpeg";
 
 class MainPage extends Component {
@@ -108,36 +109,6 @@ class MainPage extends Component {
 
 						<div className="services_space">
 							<div className="services_box">
-								<article className="service_card">
-									<div className="service_img_space">
-										<div className="service_img_box">
-											<img alt="service_icon" />
-										</div>
-									</div>
-									<div className="service_body">
-										<p className="service_title">
-											Something
-										</p>
-										<p className="service_description">
-											blah blah blah
-										</p>
-									</div>
-								</article>
-								<article className="service_card">
-									<div className="service_img_space">
-										<div className="service_img_box">
-											<img alt="service_icon" />
-										</div>
-									</div>
-									<div className="service_body">
-										<p className="service_title">
-											Something
-										</p>
-										<p className="service_description">
-											blah blah blah
-										</p>
-									</div>
-								</article>
 								<article className="service_card">
 									<div className="service_img_space">
 										<div className="service_img_box">
