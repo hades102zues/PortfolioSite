@@ -73,7 +73,7 @@ class MainPage extends Component {
 					<Parallax
 						bgImageAlt="showcase_image"
 						bgImage={showcase_img}
-						strength={200}
+						strength={700}
 					>
 						<section className="showcase ">
 							<div className="selling_point_space">
@@ -102,7 +102,7 @@ class MainPage extends Component {
 						<div className="sec_title_space">
 							<div className="sec_title_box">
 								<h2>Services</h2>
-								<div className="sec_title_underline" />
+								<div className="sec_title_underline " />
 							</div>
 						</div>
 
