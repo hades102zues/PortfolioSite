@@ -484,6 +484,7 @@ header {
 	margin-bottom: 2rem;
 	padding-left: 0.75rem;
 	border-radius: 3px;
+	font-size: 1.2rem;
 }
 
 .form_textarea {
@@ -492,6 +493,7 @@ header {
 	border: none;
 	height: 12rem;
 	padding: 0.75rem;
+	font-size: 1.2rem;
 
 	border-radius: 3px;
 }

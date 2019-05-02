@@ -396,14 +396,14 @@ class MainPage extends Component {
 								</div>
 
 								<p className="my_body">
-									Front-end Developer, author of CSS3
-									Foundations, and graduate of Internet
-									Technology. Ian combines his education with
-									10 years commercial experience in front-end
-									development to produce high-quality websites
-									and exceptional user experience. Lorem sump
-									son goku dsnan Iche Ne sa. Watashi wo
-									nakudsu gran salma come on a nd jamd
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud
+									exercitation ullamco laboris nisi ut aliquip
+									ex ea commodo consequat. Duis aute irure
+									dolor in reprehenderit in voluptate velit
+									esse cillum dolore eu fugiat nulla pariatur.
 								</p>
 
 								<p className="my_tool">Tools</p>
@@ -466,19 +466,19 @@ class MainPage extends Component {
 											className="form_input"
 											name="name"
 											type="text"
-											placeholder="Please Enter Your Full Name."
+											placeholder="Enter Your Full Name"
 										/>
 										<Field
 											className="form_input"
 											name="email"
 											type="email"
-											placeholder="E.g. johndoe@hotmail.com"
+											placeholder="Enter Your Email Address"
 										/>
 										<Field
 											className="form_input"
 											name="subject"
 											type="text"
-											placeholder="E.g. Request For Hire"
+											placeholder="Subject"
 										/>
 										<Field
 											className="form_textarea"
