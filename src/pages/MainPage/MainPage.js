@@ -124,9 +124,9 @@ class MainPage extends Component {
 										</p>
 										<p className="service_description">
 											Invest in a high-quality website
-											that will engage your clients,
-											present your services and give
-											credibility to your business.
+											that will engage your clients, sells
+											your services and give credibility
+											to your business.
 										</p>
 									</div>
 								</article>
@@ -144,9 +144,10 @@ class MainPage extends Component {
 											RESPONSIVE DESIGN
 										</p>
 										<p className="service_description">
-											Experience matters. A well crafted
-											website looks great across all
-											devices: mobile, tablet and desktop.
+											User experience matters. A well
+											crafted website looks great across
+											all devices: mobile, tablet and
+											desktop.
 										</p>
 									</div>
 								</article>
@@ -199,34 +200,68 @@ class MainPage extends Component {
 										</Card.Body>
 									</Card>
 								</a>
-								<Card className="portfolio_card">
-									<div className="portfolio_card_box">
-										<Card.Img
-											className="portfolio_card_img"
-											variant="top"
-											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-										/>
-									</div>
+								<a
+									className="portfolio_card"
+									href="https://facebook.com"
+									rel="noopener"
+									target="_blank"
+								>
+									<Card
+										style={{
+											width: "100%",
+											height: "100%",
+											border: "none"
+										}}
+									>
+										<div className="portfolio_card_box">
+											<Card.Img
+												className="portfolio_card_img"
+												variant="top"
+												src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+											/>
+										</div>
 
-									<Card.Body>
-										<Card.Title>Beverty General</Card.Title>
-										<Card.Text>Hardware Store</Card.Text>
-									</Card.Body>
-								</Card>
-								<Card className="portfolio_card">
-									<div className="portfolio_card_box">
-										<Card.Img
-											className="portfolio_card_img"
-											variant="top"
-											src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-										/>
-									</div>
+										<Card.Body>
+											<Card.Title className="portfolio_card_title">
+												Beverty General
+											</Card.Title>
+											<Card.Text className="portfolio_card_text">
+												Hardware Store
+											</Card.Text>
+										</Card.Body>
+									</Card>
+								</a>
+								<a
+									className="portfolio_card"
+									href="https://facebook.com"
+									rel="noopener"
+									target="_blank"
+								>
+									<Card
+										style={{
+											width: "100%",
+											height: "100%",
+											border: "none"
+										}}
+									>
+										<div className="portfolio_card_box">
+											<Card.Img
+												className="portfolio_card_img"
+												variant="top"
+												src="https://images.pexels.com/photos/2205564/pexels-photo-2205564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+											/>
+										</div>
 
-									<Card.Body>
-										<Card.Title>Beverty General</Card.Title>
-										<Card.Text>Hardware Store</Card.Text>
-									</Card.Body>
-								</Card>
+										<Card.Body>
+											<Card.Title className="portfolio_card_title">
+												Beverty General
+											</Card.Title>
+											<Card.Text className="portfolio_card_text">
+												Hardware Store
+											</Card.Text>
+										</Card.Body>
+									</Card>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -248,45 +283,69 @@ class MainPage extends Component {
 									<Carousel.Item>
 										<div className="testimonial">
 											<div className="testimonial_img_box">
-												<img alt="testimonial_quote_icon" />
+												<img
+													alt="testimonial_quote_icon"
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFbSURBVGiB7Zc9LwRRFIafszM20aHZQqdU20rhR2iUYiMKtUIjW9GITkUolBIJUfIfNBLZVlZ8RHZFFGRnj0J0d2d2rnFH4jzlvGeeO29xZ+6AYRiGYRiGN5IWLtNbAjaB2pC+B4X1feLDED6ASoZgO8diADX5uieUL7PAeI7FvpkI6Mss8OexAmVjBcrGCpSNFSibrAJPHs6XgD7itLAPjQqyJeioK1eYclyuhvJBxmk0jUV0bISk44i6e8S5zzy+Pu89UCWZdSd6F9LnWUBFYc2ZIFchfal7wEUTrbTp7YDMDRg5C+kbusAKOq0k9TbJKkjdNaNw/050HtI3dIE+yXXWjMDGEfIW0lfkh+xikmjgv+tv+QoqoK0q0UIT6YX2FVHgNCGe2UWeC3Dl9nkXELgFGl2i+QPk1dfzU1+O16i2QB4VbgROOkSXx8iHx7P+ks8wDMMwDOP/8Qk5GYXDsbv1GAAAAABJRU5ErkJggg=="
+												/>
 											</div>
 											<p className="testimonial_name">
 												Ginger Spice
 											</p>
 											<p className="testimonial_body">
-												coolest nigaga on the parke
-												djfsadkldf loerjalfd fads fdwath
-												jtej hell yo
+												Lorem ipsum dolor sit amet,
+												consectetur adipiscing elit, sed
+												do eiusmod tempor incididunt ut
+												labore et dolore. Lorem ipsum
+												dolor sit amet, consectetur
+												adipiscing elit, sed do eiusmod
+												tempor incididunt ut labore et
+												dolore
 											</p>
 										</div>
 									</Carousel.Item>
 									<Carousel.Item>
 										<div className="testimonial">
 											<div className="testimonial_img_box">
-												<img alt="testimonial_quote_icon" />
+												<img
+													alt="testimonial_quote_icon"
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFbSURBVGiB7Zc9LwRRFIafszM20aHZQqdU20rhR2iUYiMKtUIjW9GITkUolBIJUfIfNBLZVlZ8RHZFFGRnj0J0d2d2rnFH4jzlvGeeO29xZ+6AYRiGYRiGN5IWLtNbAjaB2pC+B4X1feLDED6ASoZgO8diADX5uieUL7PAeI7FvpkI6Mss8OexAmVjBcrGCpSNFSibrAJPHs6XgD7itLAPjQqyJeioK1eYclyuhvJBxmk0jUV0bISk44i6e8S5zzy+Pu89UCWZdSd6F9LnWUBFYc2ZIFchfal7wEUTrbTp7YDMDRg5C+kbusAKOq0k9TbJKkjdNaNw/050HtI3dIE+yXXWjMDGEfIW0lfkh+xikmjgv+tv+QoqoK0q0UIT6YX2FVHgNCGe2UWeC3Dl9nkXELgFGl2i+QPk1dfzU1+O16i2QB4VbgROOkSXx8iHx7P+ks8wDMMwDOP/8Qk5GYXDsbv1GAAAAABJRU5ErkJggg=="
+												/>
 											</div>
 											<p className="testimonial_name">
 												Ginger Spice
 											</p>
 											<p className="testimonial_body">
-												coolest nigaga on the parke
-												djfsadkldf loerjalfd fads fdwath
-												jtej hell yo
+												Lorem ipsum dolor sit amet,
+												consectetur adipiscing elit, sed
+												do eiusmod tempor incididunt ut
+												labore et dolore. Lorem ipsum
+												dolor sit amet, consectetur
+												adipiscing elit, sed do eiusmod
+												tempor incididunt ut labore et
+												dolore
 											</p>
 										</div>
 									</Carousel.Item>
 									<Carousel.Item>
 										<div className="testimonial">
 											<div className="testimonial_img_box">
-												<img alt="testimonial_quote_icon" />
+												<img
+													alt="testimonial_quote_icon"
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFbSURBVGiB7Zc9LwRRFIafszM20aHZQqdU20rhR2iUYiMKtUIjW9GITkUolBIJUfIfNBLZVlZ8RHZFFGRnj0J0d2d2rnFH4jzlvGeeO29xZ+6AYRiGYRiGN5IWLtNbAjaB2pC+B4X1feLDED6ASoZgO8diADX5uieUL7PAeI7FvpkI6Mss8OexAmVjBcrGCpSNFSibrAJPHs6XgD7itLAPjQqyJeioK1eYclyuhvJBxmk0jUV0bISk44i6e8S5zzy+Pu89UCWZdSd6F9LnWUBFYc2ZIFchfal7wEUTrbTp7YDMDRg5C+kbusAKOq0k9TbJKkjdNaNw/050HtI3dIE+yXXWjMDGEfIW0lfkh+xikmjgv+tv+QoqoK0q0UIT6YX2FVHgNCGe2UWeC3Dl9nkXELgFGl2i+QPk1dfzU1+O16i2QB4VbgROOkSXx8iHx7P+ks8wDMMwDOP/8Qk5GYXDsbv1GAAAAABJRU5ErkJggg=="
+												/>
 											</div>
 											<p className="testimonial_name">
 												Ginger Spice
 											</p>
 											<p className="testimonial_body">
-												coolest nigaga on the parke
-												djfsadkldf loerjalfd fads fdwath
-												jtej hell yo
+												Lorem ipsum dolor sit amet,
+												consectetur adipiscing elit, sed
+												do eiusmod tempor incididunt ut
+												labore et dolore. Lorem ipsum
+												dolor sit amet, consectetur
+												adipiscing elit, sed do eiusmod
+												tempor incididunt ut labore et
+												dolore
 											</p>
 										</div>
 									</Carousel.Item>
