@@ -517,6 +517,9 @@ header {
 
 	background-color: #9617c9;
 }
+.form_button_box button:hover {
+	background-color: #5100cb;
+}
 
 /*Section Footer*/
 footer {
