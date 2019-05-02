@@ -463,8 +463,6 @@ header {
 /*Section Get In Touch*/
 
 .form_space {
-	background-color: green;
-
 	width: 70%;
 	margin: 5.5rem auto 0;
 }
@@ -493,7 +491,8 @@ header {
 	width: 100%;
 	border: none;
 	height: 12rem;
-	padding-left: 0.75rem;
+	padding: 0.75rem;
+
 	border-radius: 3px;
 }
 
@@ -505,7 +504,6 @@ header {
 .form_button_box {
 	width: 12rem;
 	margin-top: 4.5rem;
-	background-color: red;
 }
 
 .form_button_box button {
@@ -513,9 +511,11 @@ header {
 	width: 100%;
 	border-radius: 24px;
 	border: none;
+	font-size: 1.2rem;
+	font-weight: bold;
 	color: white;
 
-	background-color: purple;
+	background-color: #9617c9;
 }
 
 /*Section Footer*/
