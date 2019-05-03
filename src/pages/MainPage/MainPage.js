@@ -80,7 +80,11 @@ class MainPage extends Component {
 						<section className="showcase ">
 							<div className="selling_point_space">
 								<div className="selling_point_box">
-									<h1>Full-Stack Web Developer</h1>
+									<h1>
+										Hi. I am Joshua.
+										<br />
+										Freelance Web Developer.
+									</h1>
 									<p>
 										Producing high quality responsive
 										websites.
@@ -396,14 +400,16 @@ class MainPage extends Component {
 								</div>
 
 								<p className="my_body">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip
-									ex ea commodo consequat. Duis aute irure
-									dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur.
+									Joshua Wiggins is a meticulous individual
+									with a keen eye for detail. Possessing a
+									degree in Computer Science, Joshua has set
+									out to use his expertise to help businesses
+									solve their problems. <br />
+									<br />
+									His goal is to provide businesses with
+									solutions that will build memorable
+									relationships between them and their clients
+									through interactive and clean web spaces.
 								</p>
 
 								<p className="my_tool">Tools</p>
