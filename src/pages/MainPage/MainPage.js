@@ -378,7 +378,7 @@ class MainPage extends Component {
 								</div>
 								<p className="my_name">Joshua Wiggins</p>
 								<p className="my_title">
-									Full Stack Web Developer
+									Full-Stack Web Developer
 								</p>
 
 								<div className="social_link_space">
