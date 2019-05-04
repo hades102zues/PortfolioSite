@@ -22,7 +22,7 @@ const header = () => {
 						duration={1000}
 					>
 						<Navbar.Brand>
-							<span class=" brand">Joshua Wiggins</span>
+							<span class={styles.brand}>Joshua Wiggins</span>
 						</Navbar.Brand>
 					</Link>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
