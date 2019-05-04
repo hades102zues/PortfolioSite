@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
-import { Link, Element } from "react-scroll";
+import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 const header = () => {
 	return (

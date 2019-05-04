@@ -32,7 +32,7 @@ const about = () => {
 									<a
 										target="_blank"
 										href="https://www.linkedin.com/in/joshua-wiggins-108b92b0/"
-										rel="noopener"
+										rel="noopener noreferrer"
 									>
 										<div class="social_link_icon">
 											<img

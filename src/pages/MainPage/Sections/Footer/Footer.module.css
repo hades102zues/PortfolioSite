@@ -1,0 +1,20 @@
+.sec_padding {
+	padding: 4.5rem 0;
+}
+
+.wrapper {
+	width: 85%;
+	max-width: none; /*used to overwritter bootstrap max width on container*/
+	overflow: none;
+	margin: auto auto;
+}
+
+footer {
+	background-color: #09181e;
+	color: white;
+	display: flex;
+}
+
+.footer_text {
+	text-align: center;
+}

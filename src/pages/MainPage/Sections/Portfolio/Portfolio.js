@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Portfolio.module.css";
-import { Card, Carousel, Navbar, Nav } from "react-bootstrap";
-import { Link, Element } from "react-scroll";
+import { Card } from "react-bootstrap";
+import { Element } from "react-scroll";
 
 const portfolio = () => {
 	return (
@@ -22,7 +22,7 @@ const portfolio = () => {
 							<a
 								className={styles.portfolio_card}
 								href="https://facebook.com"
-								rel="noopener"
+								rel="noopener noreferrer"
 								target="_blank"
 							>
 								<Card
@@ -63,7 +63,7 @@ const portfolio = () => {
 							<a
 								className={styles.portfolio_card}
 								href="https://facebook.com"
-								rel="noopener"
+								rel="noopener noreferrer"
 								target="_blank"
 							>
 								<Card
@@ -104,7 +104,7 @@ const portfolio = () => {
 							<a
 								className={styles.portfolio_card}
 								href="https://facebook.com"
-								rel="noopener"
+								rel="noopener noreferrer"
 								target="_blank"
 							>
 								<Card
