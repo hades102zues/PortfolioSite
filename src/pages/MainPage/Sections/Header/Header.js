@@ -12,9 +12,9 @@ const header = () => {
 				expand="lg"
 				bg="dark"
 				variant="dark"
-				className="nav_space"
+				className={styles.nav_space}
 			>
-				<div className="container wrapper">
+				<div className={`container ${styles.wrapper}`}>
 					<Link
 						to="showcase"
 						activeClass="sec_pop"
@@ -28,27 +28,35 @@ const header = () => {
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="mr-auto" />
-						<Nav className="adjust">
+						<Nav className={styles.adjust}>
 							<Link to="services" duration={1000} smooth>
 								<Nav.Link href="#">
-									<span className="nav_text">Serivces</span>
+									<span className={styles.nav_text}>
+										Serivces
+									</span>
 								</Nav.Link>
 							</Link>
 
 							<Link to="portfolio" duration={1000} smooth>
 								<Nav.Link href="#">
-									<span className="nav_text">Portfolio</span>
+									<span className={styles.nav_text}>
+										Portfolio
+									</span>
 								</Nav.Link>
 							</Link>
 							<Link to="about" duration={1000} smooth>
 								<Nav.Link href="#">
-									<span className="nav_text">About</span>
+									<span className={styles.nav_text}>
+										About
+									</span>
 								</Nav.Link>
 							</Link>
 
 							<Link to="contact" duration={1000} smooth>
 								<Nav.Link href="#">
-									<span className="nav_text">Contact</span>
+									<span className={styles.nav_text}>
+										Contact
+									</span>
 								</Nav.Link>
 							</Link>
 						</Nav>

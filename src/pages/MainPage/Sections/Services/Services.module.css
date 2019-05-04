@@ -1,0 +1,72 @@
+.services_space {
+	margin-top: 5.5rem;
+}
+
+.services_box {
+	display: flex;
+
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.service_card {
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	padding: 4.2rem 2rem;
+	max-width: 44.1rem;
+	width: 27%;
+	background-color: #f8faff;
+}
+
+.service_card:hover {
+	background-color: #6500fc;
+	color: white;
+}
+
+.service_img_space {
+	display: flex;
+	justify-content: center;
+}
+
+.service_img_box {
+	height: 6rem;
+	width: 6rem;
+}
+
+.service_img_box img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.service_body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.service_title {
+	margin-top: 1.75rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.service_description {
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.5;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+	.service_card {
+		width: 85%;
+		margin: 0 auto 2rem auto;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.service_card {
+		width: 70%;
+		margin: 0 auto 2rem auto;
+	}
+}
