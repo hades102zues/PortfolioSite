@@ -10,6 +10,7 @@ import xd_img from "./assests/1200px-Adobe_XD_CC_icon.svg.png";
 
 import Header from "./Sections/Header/Header.js";
 import Showcase from "./Sections/Showcase/Showcase";
+import Services from "./Sections/Services/Services";
 
 class MainPage extends Component {
 	render() {
@@ -17,6 +18,7 @@ class MainPage extends Component {
 			<div className="mainPage">
 				<Header />
 				<Showcase />
+				<Services />
 
 				<Element name="portfolio" />
 				<section className="sec_padding sec_grey">

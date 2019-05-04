@@ -60,9 +60,11 @@
 	margin: auto auto;
 }
 
-/**Showcase Section**/
+.sec_title_box h2 {
+	font-size: 3.2rem;
+	font-weight: bold;
+}
 
-/**Services Section**/
 .sec_title_space {
 	display: flex;
 	justify-content: center;

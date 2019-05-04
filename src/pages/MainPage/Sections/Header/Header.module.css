@@ -60,16 +60,16 @@
 	margin: auto auto;
 }
 
+.sec_title_box h2 {
+	font-size: 3.2rem;
+	font-weight: bold;
+}
+
 header {
 	background-color: grey;
 	position: fixed;
 	width: 100%;
 	z-index: 500;
-}
-
-.sec_title_box h2 {
-	font-size: 3.2rem;
-	font-weight: bold;
 }
 
 .nav_space {
