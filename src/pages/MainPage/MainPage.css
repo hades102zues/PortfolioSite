@@ -60,39 +60,6 @@
 	margin: auto auto;
 }
 
-header {
-	background-color: grey;
-	position: fixed;
-	width: 100%;
-	z-index: 500;
-}
-
-.sec_title_box h2 {
-	font-size: 3.2rem;
-	font-weight: bold;
-}
-
-.nav_space {
-	padding: 0.5rem 0;
-}
-
-.brand {
-	color: white;
-	font-weight: bold;
-	font-size: 1.6rem;
-	cursor: pointer;
-}
-
-.adjust {
-	/*works because nav enforces flex-flow of column*/
-	align-items: center;
-}
-.nav_text {
-	color: white;
-	font-size: 1.4rem;
-	margin-right: 2rem;
-}
-
 /**Showcase Section**/
 .showcase {
 	height: 100vh;
