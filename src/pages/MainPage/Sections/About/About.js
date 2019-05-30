@@ -24,7 +24,7 @@ const about = () => {
 							</div>
 							<p className={styles.my_name}>Joshua Wiggins</p>
 							<p className={styles.my_title}>
-								Full-Stack Web Developer
+								Freelance Web Developer
 							</p>
 
 							<div className={styles.social_link_space}>
